@@ -24,10 +24,5 @@ class RolesTableSeeder extends Seeder
         $role_user->description = 'An ordinary user';
         $role_user->save();
 
-        $role_shop = new Role();
-        $role_shop->name = 'shop';
-        $role_shop->description = 'A shop user';
-        $role_shop->save();
-
     }
 }
